@@ -1,0 +1,18 @@
+<div class="container">
+  <h2>Conhecimentos</h2>
+
+  <ul>
+    @for(dado of arrayIcones(); track dado){
+      <li>
+        <img
+          [src]="dado.src"
+          [alt]="dado.alt"
+          width="22px"
+          height="24px"
+          loading="lazy"
+        >
+      </li>
+    }
+  </ul>
+
+</div>

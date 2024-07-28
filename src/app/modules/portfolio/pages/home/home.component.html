@@ -1,0 +1,19 @@
+<app-header></app-header>
+
+<main>
+  <app-icones></app-icones>
+  <app-experience></app-experience>
+
+  <!-- Projetos  -->
+  @defer (on viewport ) {
+    <app-projects></app-projects>
+  } @placeholder(minimum 2s) {
+    <p><img src="/assets/img/loading.gif" width="20px" height="20px" alt="Gif de carregando..."> Carregando....</p>
+  } @error {
+    <p>Erro! Não foi possível carregar os projetos, tente novamente...</p>
+  }
+  <!-- End | Projetos -->
+
+</main>
+
+<p>home works!</p>

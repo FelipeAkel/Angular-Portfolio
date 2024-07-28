@@ -1,0 +1,22 @@
+<div class="container">
+  <h2>Projetos Desenvolvidos</h2>
+
+  <ul>
+
+    @for(dado of arrayProjects(); track dado){
+      <li>
+        <button>
+          <img
+            [src]="dado.src"
+            [alt]="dado.alt"
+            [attr.width]="dado.width"
+            [attr.height]="dado.height"
+            loading="lazy"
+          >
+        </button>
+      </li>
+
+    }
+  </ul>
+
+</div>

@@ -1,0 +1,17 @@
+<div class="container">
+  <h2>Experiência</h2>
+
+  @for(dado of arrayExperience(); track dado){
+    <details>
+      <summary>
+        <p>
+          <strong>{{ dado.summary.strong }}</strong>
+          {{ dado.summary.p }}
+        </p>
+      </summary>
+      <article  [innerHTML]="dado.text">
+      </article>
+    </details>
+  }
+
+</div>
