@@ -4,13 +4,21 @@
   <app-icones></app-icones>
   <app-experience></app-experience>
 
+  <section>
+    <h2><img src="/assets/img/loading.gif" width="20px" height="20px" alt="Gif de carregando..."> Carregando todos os projetos desenvolvidos...</h2>
+  </section>
+
   <!-- Projetos  -->
   @defer (on viewport ) {
     <app-projects></app-projects>
   } @placeholder(minimum 2s) {
-    <p><img src="/assets/img/loading.gif" width="20px" height="20px" alt="Gif de carregando..."> Carregando....</p>
+    <section>
+      <h2><img src="/assets/img/loading.gif" width="20px" height="20px" alt="Gif de carregando..."> Carregando...</h2>
+    </section>
   } @error {
-    <p>Erro! Não foi possível carregar os projetos, tente novamente...</p>
+    <section>
+      <h2>Erro! Não foi possível carregar os projetos, tente novamente...</h2>
+    </section>
   }
   <!-- End | Projetos -->
 

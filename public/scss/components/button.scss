@@ -1,0 +1,37 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+
+  // &. -> Significa que a classe superior e a especificada estiverem juntas os atributos serão aplicadas.
+  // Por exemplo, class="btn btn-primary"
+  &.btn-primary,
+  &.btn-secondary {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 7px;
+  }
+
+  &.btn-primary {
+    color: var(--black-010);
+    background: var(--white);
+  }
+
+  &:hover {
+    color: (--white);
+    background: var(--primary-010);
+  }
+
+  &.btn-secondary {
+    color: var(--black-010);
+    background: var(--white);
+  }
+
+  &:hover {
+    color: (--white);
+    background: var(--primary-010);
+  }
+}

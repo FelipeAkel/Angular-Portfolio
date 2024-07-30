@@ -1,0 +1,6 @@
+// Poder ser sem o "_" que funciona, ou chama somente a pasta "base" que por padrão o Angular buscar por arquivo chamado _index.scss
+// OBS: Por algum motivo não está aceitando colocar o "/_index" após as pastas.
+@use "base";
+@use "components";
+@use "layout";
+@use "theme";

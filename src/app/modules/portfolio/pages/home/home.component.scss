@@ -1,4 +1,11 @@
-* {
-  background-color: black;
-  color: firebrick;
+:host {
+  section {
+    // Alinhando Componente Vertical e Horizontal
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 0;
+    text-align: center;
+  }
 }
