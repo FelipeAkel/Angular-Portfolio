@@ -4,14 +4,10 @@
   <app-icones></app-icones>
   <app-experience></app-experience>
 
-  <section>
-    <h2><img src="/assets/img/loading.gif" width="20px" height="20px" alt="Gif de carregando..."> Carregando todos os projetos desenvolvidos...</h2>
-  </section>
-
   <!-- Projetos  -->
   @defer (on viewport ) {
     <app-projects></app-projects>
-  } @placeholder(minimum 2s) {
+  } @placeholder(minimum 500ms) {
     <section>
       <h2><img src="/assets/img/loading.gif" width="20px" height="20px" alt="Gif de carregando..."> Carregando...</h2>
     </section>
@@ -23,5 +19,3 @@
   <!-- End | Projetos -->
 
 </main>
-
-<p>home works!</p>

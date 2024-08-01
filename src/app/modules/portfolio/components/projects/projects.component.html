@@ -2,10 +2,9 @@
   <h2>Projetos Desenvolvidos</h2>
 
   <ul>
-
     @for(dado of arrayProjects(); track dado){
       <li>
-        <button>
+        <button mat-button (click)="openDialog(dado)">
           <img
             [src]="dado.src"
             [alt]="dado.alt"
@@ -15,7 +14,6 @@
           >
         </button>
       </li>
-
     }
   </ul>
 
