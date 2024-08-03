@@ -68,6 +68,34 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: '/assets/img/projects/lista-de-tarefas.png',
+      alt: 'Ícone do Sistema Super Gestão - SG',
+      width: '84px',
+      height: '86px',
+      title: 'Sistema Super Gestão - SG',
+      description: 'O sistema Super Gestão - SG trata-se de um website responsável por gerenciar Produtos, Clientes e Vendas. Com isso, pode-se esperar funcionalidades como CRUD (Create, Read, Update, Delete), não somente isso, mas também Filtros, Envio de E-mails, Recuperação de dados de Endereço após preenchimento do CEP, entre outros recursos.',
+      links: [
+        {
+          name: 'Saiba mais sobre o sistema GitHub',
+          href: 'https://github.com/FelipeAkel/Laravel-Super-Gestao',
+        },
+      ],
+    },
+    {
+      src: '/assets/img/projects/lista-de-tarefas.png',
+      alt: 'Ícone do Sistema Super Gestão - SG',
+      width: '84px',
+      height: '86px',
+      title: 'Sistema Super Gestão - SG',
+      description: 'O sistema Super Gestão - SG trata-se de um website responsável por gerenciar Produtos, Clientes e Vendas. Com isso, pode-se esperar funcionalidades como CRUD (Create, Read, Update, Delete), não somente isso, mas também Filtros, Envio de E-mails, Recuperação de dados de Endereço após preenchimento do CEP, entre outros recursos.',
+      links: [
+        {
+          name: 'Saiba mais sobre o sistema GitHub',
+          href: 'https://github.com/FelipeAkel/Laravel-Super-Gestao',
+        },
+      ],
+    },
   ]);
 
   public openDialog(dados: IProjects)

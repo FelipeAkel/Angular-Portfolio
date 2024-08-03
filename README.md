@@ -1,29 +1,31 @@
-# AngularPortfolio
 
-Curso de Angular Criando Portfólio - Contribuição
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
 
-## Development server
+<p align="center"><img src="/public/assets/img/mobile-desktop.png" width="400"></p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Sobre o Portfolio Felipe Akel em Angular
 
-## Code scaffolding
+Mini portfólio desenvolvido em Angular para aprendizado e fixar o conhecimento adquirido ao estudar a tecnologia.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Layout [IMG](/public/assets/img/tela.png)
 
-## Build
+## Tecnologias utilizadas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Angular
+- **[Angular](https://angular.dev/)** version 18.0.7.
+- [Angular Material](https://material.angular.io/) designer de componentes do projeto.
 
-## Running unit tests
+### SCSS
+SCSS estilização dos componentes das páginas codificados do zero.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Construção do Ambiente Local
 
-## Running end-to-end tests
+Para configurar o ambiente local do Sistema, é essecial seguir o passa a passo abaixo:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    1. Faça o clone do projeto via git;
+    2. Usando o cmd ou terminal, vá até a pasta do onde clonou o projeto;
+    3. Execute o comando `ng serve`. Navegação em `http://localhost:4200/`;
 
-## Further help
+## Licença
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto é desenvolvido em Angular e utiliza a licença MIT.
